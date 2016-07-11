@@ -1,3 +1,4 @@
 [submodule "design_framework"]
 	path = design_framework
 	url = https://github.com/neiljackson1984/design_framework
+	branch = master
