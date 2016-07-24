@@ -1,0 +1,9 @@
+{
+  "subprojects/design_framework": {
+    "url": "https://github.com/neiljackson1984/design_framework",
+    "remote": "master/braid/subprojects/design_framework",
+    "branch": "master",
+    "squashed": true,
+    "revision": "cad8265f6a75807e3afdc6d3a81828c38ab80a21"
+  }
+}
