@@ -12,25 +12,28 @@
                 "clampingDiameter": 15.24
             }
         },
+        "roundingRadius": 3,
         "pokerPort": {
-            "diameter": 3
+            "diameter": 1.9
         },
-        "pokerPortToWallPlateIntervalY": 7,
+        "pokerPortToWallPlateIntervalY": 9.5,
         "leverChamber": {
-            "extentY": 10,
-            "extentX": 8,
-            "extentZ": 20
+            "extentY": 16,
+            "extentX": 10.3,
+            "extentZ": 27
         },
-        "wallThickness": 3,
-        "extentX": 14,
-        "extentZ": 65.24,
-        "earThickness": 5
+        "wallThickness": 4,
+        "extentX": 18.3,
+        "extentZ": 81.54,
+        "extentY": 20,
+        "earThickness": 5,
+        "logoEngravingDepth": 0.2
     },
     "wallPlate": {
-        "mountHoleInterval": 50,
+        "mountHoleInterval": 60.3,
         "leverPort": {
-            "extentX": 8,
-            "extentZ": 20
+            "extentX": 10.3,
+            "extentZ": 23.8
         }
     },
     "php_errormsg": "Creating default object from empty value"

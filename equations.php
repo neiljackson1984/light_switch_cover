@@ -12,19 +12,19 @@ $radian = 180/pi();
 $uts632Screw->clampingDiameter = 0.6 * $inch; 
 
 $lightSwitchCover->mounting->screw = $uts632Screw;
+$lightSwitchCover->roundingRadius = 3 * $mm;
+$wallPlate->mountHoleInterval = 60.3 * $mm; //confirmed
+$wallPlate->leverPort->extentX = 10.3 * $mm; //confirmed
+$wallPlate->leverPort->extentZ = 23.8 * $mm; //confirmed
 
-$wallPlate->mountHoleInterval = 50 * $mm; //FIX ME
-$wallPlate->leverPort->extentX = 8 * $mm; //FIX ME
-$wallPlate->leverPort->extentZ = 20 * $mm; //FIX ME
+$lightSwitchCover->pokerPort->diameter =1.9 * $mm; //tweak me
+$lightSwitchCover->pokerPortToWallPlateIntervalY = 9.5 * $mm; //tweak me
 
-$lightSwitchCover->pokerPort->diameter =3 * $mm; //tweak me
-$lightSwitchCover->pokerPortToWallPlateIntervalY = 7 * $mm; //tweak me
-
-$lightSwitchCover->leverChamber->extentY = 10 * $mm; //tweak me
+$lightSwitchCover->leverChamber->extentY = 16 * $mm; //adjust me
 $lightSwitchCover->leverChamber->extentX = $wallPlate->leverPort->extentX;
-$lightSwitchCover->leverChamber->extentZ = $wallPlate->leverPort->extentZ; 
+$lightSwitchCover->leverChamber->extentZ = $wallPlate->leverPort->extentZ + 2*1.6 * $mm; 
 
-$lightSwitchCover->wallThickness = 3 * $mm;
+$lightSwitchCover->wallThickness = 4 * $mm;
 
 // $lightSwitchCover->extentX = 
 	// max(
@@ -34,10 +34,10 @@ $lightSwitchCover->wallThickness = 3 * $mm;
 
 $lightSwitchCover->extentX = $lightSwitchCover->leverChamber->extentX + 2 * $lightSwitchCover->wallThickness;
 
-$lightSwitchCover->extentZ = $wallPlate->mountHoleInterval + $lightSwitchCover->mounting->screw->clampingDiameter;
-//$lightSwitchCover->extentY = ...; //fix or ignore
+$lightSwitchCover->extentZ = $wallPlate->mountHoleInterval + $lightSwitchCover->mounting->screw->clampingDiameter + 2 * $lightSwitchCover->roundingRadius;
+$lightSwitchCover->extentY = $lightSwitchCover->leverChamber->extentY + $lightSwitchCover->wallThickness; 
 
 $lightSwitchCover->earThickness = 5 * $mm;
-
+$lightSwitchCover->logoEngravingDepth = 0.2 * $mm;
 
 ?>
