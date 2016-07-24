@@ -1,0 +1,37 @@
+{
+    "mm": 1,
+    "inch": 25.4,
+    "degree": 1,
+    "radian": 57.295779513082,
+    "uts632Screw": {
+        "clampingDiameter": 15.24
+    },
+    "lightSwitchCover": {
+        "mounting": {
+            "screw": {
+                "clampingDiameter": 15.24
+            }
+        },
+        "pokerPort": {
+            "diameter": 3
+        },
+        "pokerPortToWallPlateIntervalY": 7,
+        "leverChamber": {
+            "extentY": 10,
+            "extentX": 8,
+            "extentZ": 20
+        },
+        "wallThickness": 3,
+        "extentX": 14,
+        "extentZ": 65.24,
+        "earThickness": 5
+    },
+    "wallPlate": {
+        "mountHoleInterval": 50,
+        "leverPort": {
+            "extentX": 8,
+            "extentZ": 20
+        }
+    },
+    "php_errormsg": "Creating default object from empty value"
+}
