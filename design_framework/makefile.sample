@@ -1,2 +1,0 @@
-default:
-	php equationProcessor.php --source="../equations.php" --jsonOutputFile="C:/solidworks_pdm_cache_workingCopy/parameters-<id>.json" --solidworksOutputFile="C:/solidworks_pdm_cache_workingCopy/parameters-<id>.solidworksEquations"
